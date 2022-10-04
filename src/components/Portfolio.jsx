@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function StartPage() {
+export function Portfolio() {
   return (
     <>
-      <h1>Hej</h1>
+      <h1>Portfolio</h1>
     </>
   );
 }
