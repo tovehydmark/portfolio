@@ -1,0 +1,12 @@
+@import './variables/fonts';
+@import './variables/buttons';
+@import './variables/paddingsAndMargins';
+@import '_base';
+
+@media screen and (min-width: 768px) {
+  @import '_tablet';
+}
+
+@media screen and (min-width: 1290px) {
+  @import '_desktop';
+}

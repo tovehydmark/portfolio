@@ -1,3 +1,5 @@
+import '../styles/style.scss';
+
 export function NotFound() {
   return (
     <>

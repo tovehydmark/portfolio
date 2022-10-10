@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { Navigation } from './Navigation';
+import '../styles/style.scss';
 
 export function Layout() {
   return (
@@ -10,7 +11,9 @@ export function Layout() {
       <main>
         <Outlet></Outlet>
       </main>
-      <footer>Footer</footer>
+      <footer>
+        <p>Tove Hydmark</p>
+      </footer>
     </>
   );
 }

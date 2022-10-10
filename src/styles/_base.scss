@@ -1,0 +1,44 @@
+body {
+  font-size: 1rem;
+  margin: 0;
+  position: relative;
+  main {
+    min-height: 80vh;
+    div {
+      height: 100px;
+      background-color: antiquewhite;
+    }
+  }
+
+  //// NAVIGATION ////
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-top: $base-padding * 2;
+    li {
+      a {
+        text-decoration: none;
+        font-size: $heading2;
+      }
+    }
+  }
+
+  //// MAIN CONTENT ////
+
+  //// FOOTER ////
+  footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    p {
+      padding-top: $base-padding * 3;
+      margin: 0;
+    }
+  }
+}
