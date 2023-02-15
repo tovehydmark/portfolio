@@ -1,8 +1,20 @@
 body {
   font-size: 1rem;
+  font-family: 'Dosis', sans-serif;
   margin: 0;
   position: relative;
+  background-color: #282828;
+  color: #efd5a4;
+  a {
+    color: #925c5c;
+  }
+  a:visited {
+    color: #925c5c;
+  }
 
+  h1 {
+    font-family: 'Tangerine', cursive;
+  }
   //// NAVIGATION ////
   ul {
     list-style: none;
@@ -22,7 +34,18 @@ body {
   //// MAIN CONTENT ////
   main {
     min-height: 80vh;
-    // background-color: rgb(150, 176, 176); //AV NÅGON ANLEDNING ÄNDRAS INTE BG COLOR I TABLET + DESKTOP OM JAG SÄTTER EN FÄRG HÄR
+    .about {
+      width: fit-content;
+      max-width: 40%;
+      background-color: #cc9900;
+      color: #282828;
+      font-size: 2rem;
+      position: absolute;
+      right: 40px;
+      p {
+        margin: 0;
+      }
+    }
   }
 
   //// FOOTER ////

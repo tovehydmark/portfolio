@@ -4,15 +4,16 @@ import '../styles/style.scss';
 export function StartPage() {
   return (
     <>
-      <h2>I am Tove, a front-end developer</h2>
-      <p>
-        Graduating from the Media institute in June 2022, I am a frontend
-        developer in the making who thrives at the border between the frontend
-        and the backend. I can build a variety of applications, from restaurant
-        table booking systems to games with chatt functionality, diarys, og in
-        pages and more. I am foremost a React developer with Node for the
-        backend, but I also use Angular. Currently, I'm learning NextJS.
-      </p>
+      <h1>tove hydmark</h1>
+      <article className="about">
+        <p>
+          graduating from the media institute in june 2022, i am a
+          <span>frontend developer</span> in the making who thrives at the
+          border between frontend and backend. i build a variety of
+          applications, from booking systems to games with chat functionality,
+          diarys, log in pages and more. current interest: Next.js
+        </p>
+      </article>
     </>
   );
 }
