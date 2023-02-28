@@ -5,6 +5,7 @@ body {
   position: relative;
   background-color: #282828;
   color: #efd5a4;
+  position: relative;
   a {
     color: #925c5c;
   }
@@ -12,8 +13,24 @@ body {
     color: #925c5c;
   }
 
-  h1 {
-    font-family: 'Tangerine', cursive;
+  .nameSection {
+    width: min-content;
+    background-color: #ad6037;
+    position: relative;
+    .tove {
+      position: absolute;
+      left: 283px;
+      top: -100px;
+    }
+    .hydmark {
+      position: absolute;
+      top: -20px;
+      left: 140px;
+    }
+    h1 {
+      font-family: 'Tangerine', cursive;
+      font-size: 7rem;
+    }
   }
   //// NAVIGATION ////
   ul {
@@ -21,7 +38,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 0;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    margin-top: -100px;
     padding-top: $base-padding * 2;
     li {
       a {
@@ -41,7 +61,10 @@ body {
       color: #282828;
       font-size: 2rem;
       position: absolute;
-      right: 40px;
+      left: 10px;
+      top: 150px;
+      padding: 1rem;
+      border-radius: 25px;
       p {
         margin: 0;
       }
