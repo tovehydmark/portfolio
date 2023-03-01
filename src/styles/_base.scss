@@ -69,6 +69,29 @@ body {
         margin: 0;
       }
     }
+    .competences-section {
+      width: 40%;
+      position: absolute;
+      top: 100px;
+      right: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .competences {
+      font-size: 2rem;
+      border: 1px solid #efd5a4;
+      border-radius: 10px;
+      padding: 10px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  //// ANIMATIONS ////
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
   }
 
   //// FOOTER ////
