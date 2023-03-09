@@ -5,9 +5,7 @@ import '../styles/style.scss';
 export function Layout() {
   return (
     <>
-      <header>
-        <Navigation></Navigation>
-      </header>
+      <Navigation></Navigation>
       <main>
         <Outlet></Outlet>
       </main>

@@ -9,17 +9,19 @@ import { Cv } from './components/Cv';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<StartPage />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/cv" element={<Cv />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<StartPage />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="cv" element={<Cv />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
