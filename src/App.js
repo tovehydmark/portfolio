@@ -25,7 +25,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
-      </BrowserRouter>{' '}
+      </BrowserRouter>
       <div>
         <Burger open={open} setOpen={setOpen} />
         <Menu open={open} setOpen={setOpen} />
