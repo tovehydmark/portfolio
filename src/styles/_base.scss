@@ -3,14 +3,14 @@ body {
   font-family: 'Dosis', sans-serif;
   margin: 0;
   position: relative;
-  background-color: #282828;
-  color: #efd5a4;
+  background-color: $darkGray;
+  color: #ffffff;
   position: relative;
   a {
-    color: #925c5c;
+    color: $lightYellow;
   }
   a:visited {
-    color: #925c5c;
+    color: $lightYellow;
   }
 
   //// NAVIGATION ////
@@ -32,86 +32,15 @@ body {
     }
   }
 
-  //// MAIN CONTENT ////
-  main {
-    .nameSection {
-      width: min-content;
-      background-color: #ad6037;
-      position: relative;
-      .tove {
-        position: absolute;
-        left: 40px;
-        top: -100px;
-        // left: 283px;
-        // top: -100px;
-      }
-      .hydmark {
-        position: absolute;
-        top: -40px;
-        left: 10px;
-        // top: -20px;
-        // left: 140px;
-      }
-      h1 {
-        font-family: 'Tangerine', cursive;
-        font-size: 5rem;
-      }
-    }
-    min-height: 80vh;
-    .about {
-      width: fit-content;
-      max-width: 100%;
-      background-color: #cc9900;
-      color: #282828;
-      font-size: 2rem;
-      // position: absolute;
-      // left: 10px;
-      // top: 150px;
-      padding: 1rem;
-      border-radius: 25px;
-      p {
-        margin: 0;
-      }
-    }
-    .competences-wrapper {
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      padding: 50px 10px;
-    }
-    .competences-section {
-      width: 100%;
-      // position: absolute;
-      // top: 100px;
-      // right: 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .competences {
-      font-size: 2rem;
-      border: 1px solid #efd5a4;
-      border-radius: 10px;
-      padding: 10px;
-      width: 150px;
-      display: flex;
-      justify-content: center;
-    }
-  }
-
-  //// ANIMATIONS ////
-  .animate__animated.animate__zoomIn {
-    --animate-duration: 2s;
-  }
-
   //// FOOTER ////
   footer {
     background-color: black;
     color: white;
-    height: 150px;
+    height: 100px;
     width: 100%;
     text-align: center;
-    position: sticky;
+    position: fixed;
+    bottom: 0;
     p {
       padding-top: $base-padding * 3;
       margin: 0;
