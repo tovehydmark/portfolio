@@ -5,7 +5,7 @@ import '../styles/style.scss';
 export function Navigation() {
   return (
     <>
-      <nav style={{ 'margin-top': '100px' }}>
+      <nav>
         <ul>
           <li>
             <NavLink to="/" className={({ isActive }) => (isActive ? 'link-active' : 'link')}>
