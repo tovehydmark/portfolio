@@ -17,10 +17,10 @@ body {
   color: #ffffff;
   position: relative;
   a {
-    color: $lightYellow;
+    color: $lightPurple;
   }
   a:visited {
-    color: $lightYellow;
+    color: $lightPurple;
   }
 
   //// NAVIGATION ////
@@ -49,26 +49,48 @@ body {
     }
   }
 
-  //// MAIN ////
-  .about {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    @media (max-width: 1060px) {
-      padding-top: 100px;
-      h1 {
-        font-size: 4rem;
+  main {
+    min-height: 100vh;
+
+    //// MAIN ////
+    .about {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      @media (max-width: 1060px) {
+        padding-top: 100px;
+        h1 {
+          font-size: 4rem;
+        }
+      }
+      .presentation {
+        width: 40%;
+        font-size: $heading3;
+
+        .enhanced {
+          color: $darkYellow;
+        }
       }
     }
-    .presentation {
-      width: 40%;
-      font-size: $heading3;
-
-      .enhanced {
-        color: $darkYellow;
-      }
+    .competencesBox {
+      position: absolute;
+      bottom: 150px;
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 0 100px;
+    }
+    .competence {
+      border: 1px solid $lightYellow;
+      border-radius: 5px;
+      padding: 5px;
+      width: fit-content;
+      color: $darkYellow;
     }
   }
 
@@ -79,7 +101,7 @@ body {
     height: 100px;
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     p {
       padding-top: $base-padding * 3;
