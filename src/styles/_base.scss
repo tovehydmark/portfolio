@@ -52,6 +52,8 @@ body {
   main {
     padding-bottom: 100px;
     //// MAIN ////
+
+    /// Home
     .about {
       width: 100%;
       display: flex;
@@ -67,10 +69,6 @@ body {
       .presentation {
         width: 40%;
         font-size: $heading3;
-
-        .enhanced {
-          color: $darkYellow;
-        }
       }
     }
     .competences-box {
@@ -90,6 +88,36 @@ body {
       color: $lightPurple;
       background-color: rgb(20, 20, 20);
     }
+  }
+  .enhanced {
+    color: $darkYellow;
+  }
+
+  ///Contact
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    @media (max-width: 1060px) {
+      padding-top: 100px;
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .social-media {
+    height: 400px;
+    width: 100px;
+    position: absolute;
+    margin-left: 20px;
+  }
+
+  .social-media-icon {
+    width: 50px;
+    height: 50px;
   }
 
   //// FOOTER ////
