@@ -33,11 +33,12 @@ export function StartPage() {
       <div className="about">
         <h1>Hey, I am Tove</h1>
         <p className="presentation">
-          I build web applications with my main focus on <span className="enhanced">Frontend</span> (but I also get
-          excited building dynamic apps)
+          I build web applications. My main focus is on the <span className="enhanced">Frontend</span> but I have
+          experience building <span className="enhanced">Fullstack</span> with Node.js and it gets me excited. <br />
+          Let me help you develop your UI.
         </p>
       </div>
-      <div className="competencesBox">{printCompetences}</div>
+      <div className="competences-box">{printCompetences}</div>
     </>
   );
 }
