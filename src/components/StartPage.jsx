@@ -9,6 +9,7 @@ export function StartPage() {
     'Next.js',
     'TypeScript',
     'Angular',
+    'Node.js',
     'CSS',
     'SASS',
     'Figma',
@@ -34,8 +35,7 @@ export function StartPage() {
         <h1>Hey, I am Tove</h1>
         <p className="presentation">
           I build web applications. My main focus is on the <span className="enhanced">Frontend</span> but I have
-          experience building <span className="enhanced">Fullstack</span> with Node.js and it gets me excited. <br />
-          Let me help you develop your UI.
+          experience building <span className="enhanced">Fullstack</span> with Node.js and it gets me excited.
         </p>
       </div>
       <div className="competences-box">{printCompetences}</div>

@@ -1,0 +1,30 @@
+[
+  {
+    "workplaceName": "Blåbär Nordic Living",
+    "role": "Barista och affärsbiträde",
+    "location": "London",
+    "timePeriod": "Feb 2022-nu",
+    "Description": "Arbetar extra under studietiden som barista och affärsbiträde på caféet/butiken Blåbär i London."
+  },
+  {
+    "workplaceName": "Cancer Research UK",
+    "role": "Assisterande butikschef",
+    "location": "London",
+    "timePeriod": "Jan - aug 2020 (vikariat)",
+    "Description": "Ansvarade för driften av en secondhandbutik och arbetade därigenom med att samla in pengar till cancerforskning."
+  },
+  {
+    "workplaceName": "R&H cafe gallery",
+    "role": "Servitris",
+    "location": "London",
+    "timePeriod": "2018-2020",
+    "Description": "Arbetade med att ge gästerna bästa möjliga service med allt vad det innebär på detta persiska café."
+  },
+  {
+    "workplaceName": "Hemköp",
+    "role": "Avdelningsansvarig",
+    "location": "Stockholm",
+    "timePeriod": "2012-2017",
+    "Description": "Ansvarade för frukt- och gröntavdelningen med beställningar, prishantering, avdelningsdesign med mer. Jag var även huvudansvarig i butiken under mina kvällspass."
+  }
+]
