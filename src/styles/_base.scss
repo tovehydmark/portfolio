@@ -120,6 +120,30 @@ body {
     height: 50px;
   }
 
+  //// CV ////
+
+  .experience-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    gap: 20px;
+    .experience-container {
+      border: 1px solid $lightPurple;
+      border-radius: 7px;
+      width: 80%;
+      max-width: 300px;
+      padding: 1rem;
+      h2 {
+        font-size: 1.5rem;
+      }
+      .work-details {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
   //// FOOTER ////
   footer {
     background-color: black;
