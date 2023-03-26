@@ -10,7 +10,7 @@ export function Layout() {
         <Outlet></Outlet>
       </main>
       <footer>
-        <p>Tove Hydmark</p>
+        <p>©Tove Hydmark 2023</p>
       </footer>
     </>
   );

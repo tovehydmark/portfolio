@@ -35,7 +35,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      width: 40%;
+      width: 30%;
       position: fixed;
       right: 0;
       margin-top: 0px;
@@ -43,7 +43,7 @@ body {
       li {
         a {
           text-decoration: none;
-          font-size: $heading2;
+          font-size: 1.5rem;
         }
       }
     }
@@ -53,35 +53,48 @@ body {
     padding-bottom: 100px;
     //// MAIN ////
 
-    /// Home
-    .about {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .i-am-tove {
+      text-align: center;
       @media (max-width: 1060px) {
         padding-top: 100px;
-        h1 {
-          font-size: 4rem;
-          margin: 20px;
+      }
+    }
+    /// Home
+    .start-page-layout {
+      display: flex;
+      justify-content: center;
+      margin: 0 10%;
+      gap: 10%;
+
+      @media (max-width: 767px) {
+        .competences-box {
+          margin-top: 2rem;
+          justify-content: space-between;
         }
       }
+      @media (max-width: 1060px) {
+        flex-direction: column;
+      }
+
       .presentation {
-        width: 80%;
-        max-width: 700px;
         font-size: $heading3;
+        margin: 0;
       }
     }
     .competences-box {
-      width: 80%;
-      max-width: 700px;
-
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin: 50px auto 100px auto;
+      gap: 10px;
+      align-content: center;
+      margin-top: 2rem;
+    }
+    @media (min-width: 1060px) {
+      .competences-box {
+        margin-top: 0;
+        justify-content: space-between;
+        align-content: flex-start;
+      }
     }
     .competence {
       border: 1px solid $lightPurple;
@@ -103,11 +116,11 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    h1 {
+      font-size: 4rem;
+    }
     @media (max-width: 1060px) {
       padding-top: 100px;
-      h1 {
-        font-size: 4rem;
-      }
     }
   }
 

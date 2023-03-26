@@ -31,8 +31,8 @@ export function StartPage() {
 
   return (
     <>
-      <div className="about">
-        <h1>I am Tove</h1>
+      <h1 className="i-am-tove">I am Tove</h1>
+      <section className="start-page-layout">
         <p className="presentation">
           Welcome to my site. I am a <span className="enhanced">Frontend</span> developer who builds web applications.
           My expertise lays in <span className="enhanced">React.js</span> and{' '}
@@ -40,12 +40,11 @@ export function StartPage() {
           <span className="enhanced">Node.js</span> for the backend. <br />
           <br />
           Having studied and worked remotely for the last two years, I have learnt to manage my time and work
-          efficiently all on my own merit. I am open for any <span className="enhanced">remote</span> or{' '}
-          <span className="enhanced">hybrid</span> role in <span className="enhanced">London</span> (my current
-          location) or <span className="enhanced">Stockholm</span> (my home town).
+          efficiently all on my own merit. I am open for any remote or hybrid role in London (my current location) or
+          Stockholm (my home town).
         </p>
-      </div>
-      <div className="competences-box">{printCompetences}</div>
+        <div className="competences-box">{printCompetences}</div>
+      </section>
     </>
   );
 }
