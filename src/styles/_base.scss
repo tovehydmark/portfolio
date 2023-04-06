@@ -62,9 +62,11 @@ body {
     /// Home
     .start-page-layout {
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      margin: 0 10%;
+      margin: 0 auto;
       gap: 10%;
+      max-width: 850px;
 
       @media (max-width: 767px) {
         .competences-box {
@@ -72,9 +74,9 @@ body {
           justify-content: space-between;
         }
       }
-      @media (max-width: 1060px) {
-        flex-direction: column;
-      }
+      // @media (max-width: 1060px) {
+      //   flex-direction: column;
+      // }
 
       .presentation {
         font-size: $heading3;
@@ -91,8 +93,8 @@ body {
     }
     @media (min-width: 1060px) {
       .competences-box {
-        margin-top: 0;
-        justify-content: space-between;
+        // margin-top: 0;
+        // justify-content: space-between;
         align-content: flex-start;
       }
     }
