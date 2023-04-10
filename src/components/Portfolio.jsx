@@ -4,19 +4,25 @@ import { useState } from 'react';
 
 export function Portfolio() {
   const [isHovering, setIsHovering] = useState(false);
+  const portfolioItemsArray = [
+    { name: 'pluggaTech', img: './images/plugga.tech.png', link: 'www.adventurehero.se' },
+    { name: 'adventureHero', img: './images/adventurehero.png', link: 'www.plugga.tech' },
+  ];
 
-  console.log('isHovering', isHovering);
-  const PortfolioItem = ({ handleMouseOver, handleMouseOut }) => {
-    return (
-      <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-        Hover Me
-      </div>
-    );
+  const PortfolioItem = ({ handleMouseOver }) => {
+    const printPortfolioItems = portfolioItemsArray.map((item) => {
+      return (
+        <div key={item.img} onMouseOver={handleMouseOver} className="portfolio-item">
+          <img src={item.img} alt={item.name}></img>
+        </div>
+      );
+    });
+    return printPortfolioItems;
   };
 
-  const PortfolioItemHovered = () => {
+  const PortfolioItemHovered = ({ handleMouseOut }) => {
     return (
-      <div>
+      <div onMouseOut={handleMouseOut}>
         Hovering right meow!
         <span role="img" aria-label="cat">
           🐱
@@ -31,13 +37,17 @@ export function Portfolio() {
   const handleMouseOut = () => {
     setIsHovering(false);
   };
+  console.log('isHovering', isHovering);
 
   return (
     <>
       <div>
         {' '}
-        <PortfolioItem handleMouseOver={handleMouseOver} handleMouseOut={handleMouseOut} />
-        {isHovering && <PortfolioItemHovered />}
+        {isHovering ? (
+          <PortfolioItemHovered handleMouseOut={handleMouseOut} />
+        ) : (
+          <PortfolioItem handleMouseOver={handleMouseOver} handleMouseOut={handleMouseOut} />
+        )}
       </div>
     </>
   );

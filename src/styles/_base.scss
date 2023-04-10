@@ -111,6 +111,15 @@ body {
     color: $darkYellow;
   }
 
+  ///Portfolio
+  .portfolio-item {
+    max-width: 80%;
+    // height: 300px;
+    img {
+      max-width: 100%;
+    }
+  }
+
   ///Contact
   .contact-section {
     display: flex;
