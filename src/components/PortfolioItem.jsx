@@ -4,10 +4,13 @@ export function PortfolioItem(props) {
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <>
-      <button onClick={() => setReadMore(!readMore)}>Read more</button>
-      {readMore ? props.about : null}
-    </>
+    <div className="portfolio-item">
+      <button onClick={() => setReadMore(!readMore)}>{readMore ? 'View less' : 'Read more'}</button>
+      {readMore ? <div className="about-the-project">{props.about}</div> : null}
+      <a href={props.link} target="_blank" rel="noreferrer">
+        Visit the site at {props.name}
+      </a>
+    </div>
   );
 }
 
