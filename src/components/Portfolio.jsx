@@ -1,54 +1,28 @@
-import React from 'react';
+import { React } from 'react';
 import '../styles/style.scss';
-import { useState } from 'react';
+import PortfolioItem from './PortfolioItem';
 
 export function Portfolio() {
-  const [isHovering, setIsHovering] = useState(false);
   const portfolioItemsArray = [
-    { name: 'pluggaTech', img: './images/plugga.tech.png', link: 'www.adventurehero.se' },
-    { name: 'adventureHero', img: './images/adventurehero.png', link: 'www.plugga.tech' },
+    { name: 'pluggaTech', img: './images/plugga.tech.png', link: 'https://adventurehero.se', about: 'about AH' },
+    { name: 'adventureHero', img: './images/adventurehero.png', link: 'https://plugga.tech', about: 'about PT' },
   ];
 
-  const PortfolioItem = ({ handleMouseOver }) => {
-    const printPortfolioItems = portfolioItemsArray.map((item) => {
-      return (
-        <div key={item.img} onMouseOver={handleMouseOver} className="portfolio-item">
-          <img src={item.img} alt={item.name}></img>
-        </div>
-      );
-    });
-    return printPortfolioItems;
-  };
-
-  const PortfolioItemHovered = ({ handleMouseOut }) => {
+  const printPortfolioItems = portfolioItemsArray.map((item) => {
     return (
-      <div onMouseOut={handleMouseOut}>
-        Hovering right meow!
-        <span role="img" aria-label="cat">
-          🐱
-        </span>
-      </div>
+      <article key={item.img} className="portfolio-item">
+        <img src={item.img} alt={item.name}></img>
+        <PortfolioItem about={item.about}></PortfolioItem>
+        <a href={item.link} target="_blank" rel="noreferrer">
+          Visit the site at {item.name}
+        </a>
+      </article>
     );
-  };
-  const handleMouseOver = () => {
-    setIsHovering(true);
-  };
-
-  const handleMouseOut = () => {
-    setIsHovering(false);
-  };
-  console.log('isHovering', isHovering);
+  });
 
   return (
     <>
-      <div>
-        {' '}
-        {isHovering ? (
-          <PortfolioItemHovered handleMouseOut={handleMouseOut} />
-        ) : (
-          <PortfolioItem handleMouseOver={handleMouseOver} handleMouseOut={handleMouseOut} />
-        )}
-      </div>
+      <section className="print-portfolio">{printPortfolioItems}</section>
     </>
   );
 }
