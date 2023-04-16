@@ -10,6 +10,11 @@ export function PortfolioItem(props) {
       <a href={props.link} target="_blank" rel="noreferrer">
         Visit the site at {props.name}
       </a>
+      {props.githubLink ? (
+        <p>
+          or go to <a href={props.githubLink}>my github profile</a> to view the code
+        </p>
+      ) : null}
     </div>
   );
 }
