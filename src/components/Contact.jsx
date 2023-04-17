@@ -49,9 +49,9 @@ export function Contact() {
   });
   return (
     <>
+      <h1>Contact</h1>
       <section className="contact-section">
-        <div className="contact">
-          <h1>Contact</h1>
+        <div className="contact-info">
           <p>
             I'm currently living in <span className="enhanced">London</span> but I also have a home in{' '}
             <span className="enhanced">Stockholm.</span> <br />

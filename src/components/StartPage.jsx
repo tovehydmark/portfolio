@@ -31,7 +31,7 @@ export function StartPage() {
 
   return (
     <>
-      <h1 className="i-am-tove">I am Tove</h1>
+      <h1>I am Tove</h1>
       <section className="start-page-layout">
         <p className="presentation">
           Welcome to my site. I am a <span className="enhanced">Frontend</span> developer who builds web applications.

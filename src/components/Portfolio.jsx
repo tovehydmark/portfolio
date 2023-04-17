@@ -70,6 +70,7 @@ export function Portfolio() {
 
   return (
     <>
+      <h1>Portfolio</h1>
       <section className="portfolio">
         {portfolioItemsArray.map((item) => {
           return (

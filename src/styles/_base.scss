@@ -16,11 +16,21 @@ body {
   color: #ffffff;
   position: relative;
   min-height: 100vh;
+  width: 100%;
   a {
     color: $lightPurple;
   }
   a:visited {
     color: $lightPurple;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-align: center;
+    @media (max-width: 1060px) {
+      padding-top: 100px;
+    }
   }
 
   //// NAVIGATION ////
@@ -53,12 +63,6 @@ body {
     padding-bottom: 100px;
     //// MAIN ////
 
-    .i-am-tove {
-      text-align: center;
-      @media (max-width: 1060px) {
-        padding-top: 100px;
-      }
-    }
     /// Home
     .start-page-layout {
       display: flex;
@@ -66,6 +70,7 @@ body {
       justify-content: center;
       margin: 0 auto;
       gap: 10%;
+      width: 90%;
       max-width: 850px;
 
       @media (max-width: 767px) {
@@ -93,8 +98,6 @@ body {
     }
     @media (min-width: 1060px) {
       .competences-box {
-        // margin-top: 0;
-        // justify-content: space-between;
         align-content: flex-start;
       }
     }
@@ -116,14 +119,10 @@ body {
   .portfolio {
     width: 90%;
     margin: 0 auto;
-    padding-top: 80px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    @media (min-width: 1060px) {
-      padding-top: 0px;
-    }
   }
   .portfolio-image {
     width: 100%;
@@ -154,39 +153,7 @@ body {
     }
     .about-the-project {
       margin-bottom: 1rem;
-      // width: 50%;
     }
-  }
-
-  ///Contact
-  .contact-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    h1 {
-      font-size: 4rem;
-    }
-    @media (max-width: 1060px) {
-      padding-top: 100px;
-    }
-  }
-
-  .social-media {
-    height: 400px;
-    width: 100%;
-    display: flex;
-    margin-top: 3rem;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: center;
   }
 
   //// CV ////
@@ -195,7 +162,6 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 150px;
     padding-bottom: 100px;
     gap: 20px;
     .experience-container {
@@ -211,6 +177,31 @@ body {
         font-size: 0.8rem;
       }
     }
+  }
+
+  ///Contact
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .social-media {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
   }
 
   //// FOOTER ////

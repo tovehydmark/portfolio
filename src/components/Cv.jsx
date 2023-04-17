@@ -68,6 +68,7 @@ export function Cv() {
   // }, []);
   return (
     <>
+      <h1>CV</h1>
       <section className="experience-section">{printExperiences}</section>
     </>
   );
