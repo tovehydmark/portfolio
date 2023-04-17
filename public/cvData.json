@@ -1,0 +1,37 @@
+[
+  {
+    "workplaceName": "Hive and Five",
+    "role": "Frontendutvecklare, intern",
+    "location": "Remote",
+    "timePeriod": "2022 - now",
+    "description": "Working for HiveAndFive, I have had the opportunity to develop two significant projects. One of them was the platform adventurehero.se, which is a booking system that allows different operators to post their events for customers to book. My role is to contribute to the development of the platform, using React.js with TypeScript to improve the user experience and ensure the system's efficiency.In addition to adventurehero.se, I have also worked on developing plugga.tech, an educational platform for developers written in Next.js with TypeScript. Using my coding expertise and knowledge of front-end development, I helped create a robust and user-friendly platform."
+  },
+  {
+    "workplaceName": "Blåbär Nordic Living",
+    "role": "Barista och shop assistant",
+    "location": "London",
+    "timePeriod": "2022 - now",
+    "description": "Currently, I work as a barista and shop assistant at Blåbär, a café/store in London while pursuing my studies. This role has allowed me to further develop my customer service skills, as well as my ability to work efficiently in a fast-paced environment. I continue to contribute to the success of the business while balancing my academic responsibilities, and have gained valuable experience working effectively as part of a team."
+  },
+  {
+    "workplaceName": "Cancer Research UK",
+    "role": "Assistant shop manager",
+    "location": "London",
+    "timePeriod": "2020 (temporary role)",
+    "description": "As a second-hand shop manager at Cancer Research UK, I took on the responsibility of overseeing the daily operations and contributing to fundraising efforts. Through my work, I gained experience in inventory management, customer service, and teamwork. I took pride in my role, knowing that my contributions helped support a worthy cause."
+  },
+  {
+    "workplaceName": "R&H cafe gallery",
+    "role": "Waitress",
+    "location": "London",
+    "timePeriod": "2018-2020",
+    "description": "At this Persian café, I gained valuable experience in customer service, working to ensure that guests received the best possible experience. My responsibilities included everything from taking orders to preparing food and maintaining a clean and welcoming environment. Through my work, I developed strong communication skills and an ability to adapt to changing customer needs."
+  },
+  {
+    "workplaceName": "Hemköp",
+    "role": "Section manager",
+    "location": "Stockholm",
+    "timePeriod": "2012-2017",
+    "description": "As a supervisor for a grocery store, I took on a leadership role, overseeing the fruit and vegetable department, managing orders, pricing, and section design. In addition, I served as the primary supervisor during my evening shifts, responsible for ensuring the smooth operation of the store and addressing any customer concerns. Through my work, I gained experience in team management, inventory management, and customer service."
+  }
+]
