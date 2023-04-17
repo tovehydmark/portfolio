@@ -68,23 +68,23 @@ export function Portfolio() {
     },
   ];
 
-  const printPortfolioItems = portfolioItemsArray.map((item) => {
-    return (
-      <article key={item.img}>
-        <img className="portfolio-image" src={item.img} alt={item.name}></img>
-        <PortfolioItem
-          about={item.about}
-          name={item.name}
-          link={item.link}
-          githubLink={item.githubLink}
-        ></PortfolioItem>
-      </article>
-    );
-  });
-
   return (
     <>
-      <section className="print-portfolio">{printPortfolioItems}</section>
+      <section className="portfolio">
+        {portfolioItemsArray.map((item) => {
+          return (
+            <article key={item.img} className="print-all-portfolio-items">
+              <PortfolioItem
+                src={item.img}
+                about={item.about}
+                name={item.name}
+                link={item.link}
+                githubLink={item.githubLink}
+              ></PortfolioItem>
+            </article>
+          );
+        })}
+      </section>
     </>
   );
 }
