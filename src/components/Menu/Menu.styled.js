@@ -6,7 +6,7 @@ export const StyledMenu = styled.nav`
   justify-content: center;
   height: 100vh;
   text-align: left;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #151515; //Todo: variables for color
