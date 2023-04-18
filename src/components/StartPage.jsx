@@ -8,7 +8,7 @@ export function StartPage() {
     'JavaScript',
     'Next.js',
     'TypeScript',
-    'Angular',
+    'Angular.js',
     'Node.js',
     'CSS',
     'SASS',
@@ -19,12 +19,18 @@ export function StartPage() {
     'Scrum',
     'UX',
     'WCAG',
+    'Mantine',
+    'Chakra UI',
+    'Semantic UI',
+    'Cypress',
   ];
 
   const printCompetences = competences.map((competence) => {
     return (
       <>
-        <div className="competence animate__animated animate__fadeIn animate__delay-1s">{competence}</div>
+        <div className="competence animate__animated animate__fadeIn animate__delay-1s" key={competence}>
+          {competence}
+        </div>
       </>
     );
   });
@@ -40,8 +46,8 @@ export function StartPage() {
           <span className="enhanced">Node.js</span> for the backend. <br />
           <br />
           Having studied and worked remotely for the last two years, I have learnt to manage my time and work
-          efficiently all on my own merit. I am open for any remote or hybrid role in London (my current location) or
-          Stockholm (my home town).
+          efficiently all on my own merit.{' '}
+          <span className="enhanced">I am open for any remote or hybrid role in London </span>(my current location).
         </p>
         <div className="competences-box">{printCompetences}</div>
       </section>
