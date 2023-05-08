@@ -1,18 +1,8 @@
 import '../styles/style.scss';
-import { useState, useEffect } from 'react';
+import data from '../data/cvData.json';
 
 export function Cv() {
-  const [experiences, setExperiences] = useState([]);
-
-  useEffect(() => {
-    fetch('cvData.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setExperiences(data);
-      });
-  }, []);
-
-  const printExperiences = experiences.map((experience) => {
+  const printExperiences = data.map((experience) => {
     return (
       <article className="experience-container">
         <h2>{experience.role}</h2>

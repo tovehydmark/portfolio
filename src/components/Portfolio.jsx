@@ -1,23 +1,15 @@
-import { React, useEffect, useState } from 'react';
+import { React } from 'react';
 import '../styles/style.scss';
+import data from '../data/portfolioData.json';
+
 import PortfolioItem from './PortfolioItem';
 
 export function Portfolio() {
-  const [portfolioItemsArray, setPortfolioItemsArray] = useState([]);
-
-  useEffect(() => {
-    fetch('portfolioData.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setPortfolioItemsArray(data);
-      });
-  }, []);
-
   return (
     <>
       <h1>Portfolio</h1>
       <section className="portfolio">
-        {portfolioItemsArray.map((item) => {
+        {data.map((item) => {
           return (
             <article key={item.img} className="print-all-portfolio-items">
               <PortfolioItem
