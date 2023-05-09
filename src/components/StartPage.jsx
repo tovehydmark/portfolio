@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css';
 import '../styles/style.scss';
-import toveImage from '../images/tove-circular.png';
+// import toveImage from '../images/tove-circular.png';
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
