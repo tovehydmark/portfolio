@@ -7,7 +7,7 @@ export function PortfolioItem(props) {
   return (
     <div className="portfolio-item">
       {' '}
-      <img className="portfolio-image" src={props.src} alt={props.name}></img>
+      <img className="portfolio-image" src={props.src} alt={props.name} loading="lazy"></img>
       <button onClick={() => setReadMore(!readMore)}>{readMore ? 'View less' : 'Read more'}</button>
       {readMore ? <div className="about-the-project">{props.about}</div> : null}
       <div>
