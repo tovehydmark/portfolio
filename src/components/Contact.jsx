@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/style.scss';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
 
 export function Contact() {
