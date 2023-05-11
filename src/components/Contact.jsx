@@ -55,7 +55,7 @@ export function Contact() {
           <p>
             I'm currently living in <span className="enhanced">London</span> but I also have a home in{' '}
             <span className="enhanced">Stockholm.</span> <br />
-            Send me an email or give me a call if you're interested in my work
+            Please send me an email or give me a call if you're interested in my work
           </p>
         </div>
         <div className="social-media">
