@@ -74,7 +74,8 @@ export function StartPage() {
           <br />
           Having studied and worked remotely for the last two years, I have learnt to manage my time and work
           efficiently all on my own merit.{' '}
-          <span className="enhanced">I am open for any remote or hybrid role in London </span>(my current location).
+          <span className="enhanced">I am open for any remote or hybrid role in London </span>(my current location) or{' '}
+          <span className="enhanced">Stockholm </span>(my second home).
         </p>
         <div className="competences-box">{printCompetences}</div>
       </section>
