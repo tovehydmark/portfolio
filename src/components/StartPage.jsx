@@ -26,16 +26,13 @@ export function StartPage() {
     'Mantine',
     'Chakra UI',
     'Semantic UI',
-    'Cypress',
   ];
 
-  const printCompetences = competences.map((competence) => {
+  const printCompetences = competences.map((competence, i) => {
     return (
-      <>
-        <div className="competence animate__animated animate__fadeIn animate__delay-1s" key={competence}>
-          {competence}
-        </div>
-      </>
+      <div key={i} className="competence animate__animated animate__fadeIn animate__delay-1s">
+        {competence}
+      </div>
     );
   });
 

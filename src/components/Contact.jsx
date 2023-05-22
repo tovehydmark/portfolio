@@ -21,9 +21,9 @@ export function Contact() {
     { media: 'Phone', data: '+447476320569', icon: <FaPhone style={{ width: '2rem', height: '2rem' }} /> },
   ];
 
-  const printSocialMedia = socialMedia.map((media) => {
+  const printSocialMedia = socialMedia.map((media, i) => {
     return (
-      <div>
+      <div key={i}>
         <a href={media.link} target="_blank" rel="noreferrer">
           {media.icon}
         </a>
@@ -31,9 +31,9 @@ export function Contact() {
     );
   });
 
-  const printContact = contact.map((item) => {
+  const printContact = contact.map((item, i) => {
     return (
-      <div>
+      <div key={i}>
         {item.media === 'Email' ? (
           <a href={'mailto:' + item.link} target="_blank" rel="noreferrer">
             {item.icon}

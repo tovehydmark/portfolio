@@ -2,9 +2,9 @@ import '../styles/style.scss';
 import data from '../data/cvData.json';
 
 export function Cv() {
-  const printExperiences = data.map((experience) => {
+  const printExperiences = data.map((experience, i) => {
     return (
-      <article className="experience-container">
+      <article className="experience-container" key={i}>
         <h2>{experience.role}</h2>
         <p className="work-details">
           {experience.workplaceName} - {experience.location} - {experience.timePeriod}
