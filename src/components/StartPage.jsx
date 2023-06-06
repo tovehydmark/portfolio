@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css';
 import '../styles/style.scss';
-// import toveImage from '../images/tove-circular.png';
+import toveImage from '../images/tove-circular.png';
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -36,32 +36,23 @@ export function StartPage() {
     );
   });
 
-  // 'gsap.set('#rotating-image', { xPercent: -50 });
-
-  // var rotate = gsap
-  //   .timeline({
-  //     scrollTrigger: {
-  //       trigger: '#image-wrapper',
-  //       pin: true,
-  //       scrub: 0.2,
-  //       start: 'top top',
-  //       end: '+=10000',
-  //     },
-  //   })
-  //   .to('#rotating-image', {
-  //     rotation: 360 * 1,
-  //     duration: 1,
-  //     ease: 'none',
-  //   });'
+  gsap.to('#rotating-image', {
+    rotation: 900,
+    duration: 1,
+    scrollTrigger: {
+      trigger: '#image-wrapper',
+      scrub: 1,
+    },
+  });
 
   return (
     <>
       <h1>I am Tove</h1>
-      {/* <div id="image-wrapper">
+      <div id="image-wrapper">
         <div id="rotating-image">
-          <img src={toveImage} alt="tove" />
+          <img src={toveImage} alt="tove" width={100} height={100} />
         </div>
-      </div> */}
+      </div>
       <section className="start-page-layout">
         <p className="presentation">
           Welcome to my site. I am a <span className="enhanced">Frontend</span> developer who builds web applications.
