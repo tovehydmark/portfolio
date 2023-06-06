@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'animate.css';
 import '../styles/style.scss';
 import toveImage from '../images/tove-circular.png';
@@ -36,14 +36,16 @@ export function StartPage() {
     );
   });
 
-  gsap.to('#rotating-image', {
-    rotation: 900,
-    duration: 1,
-    scrollTrigger: {
-      trigger: '#image-wrapper',
-      scrub: 1,
-    },
-  });
+  useEffect(() => {
+    gsap.to('#rotating-image', {
+      rotation: 900,
+      duration: 2,
+      scrollTrigger: {
+        trigger: '#rotating-image',
+        scrub: 1,
+      },
+    });
+  }, []);
 
   return (
     <>
