@@ -52,7 +52,7 @@ export function StartPage() {
       <h1>I am Tove</h1>
       <div id="image-wrapper">
         <div id="rotating-image">
-          <img src={toveImage} alt="tove" width={100} height={100} />
+          <img src={toveImage} alt="tove" width={80} height={80} />
         </div>
       </div>
       <section className="start-page-layout">
