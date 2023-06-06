@@ -1,11 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import 'animate.css';
 import '../styles/style.scss';
-import toveImage from '../images/tove-circular.png';
-import { gsap } from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
-
+import { RotatingImage } from './RotatingImage';
 export function StartPage() {
   const competences = [
     'React.js',
@@ -36,25 +32,10 @@ export function StartPage() {
     );
   });
 
-  useEffect(() => {
-    gsap.to('#rotating-image', {
-      rotation: 900,
-      duration: 2,
-      scrollTrigger: {
-        trigger: '#rotating-image',
-        scrub: 1,
-      },
-    });
-  }, []);
-
   return (
     <>
       <h1>I am Tove</h1>
-      <div id="image-wrapper">
-        <div id="rotating-image">
-          <img src={toveImage} alt="tove" width={80} height={80} />
-        </div>
-      </div>
+      <RotatingImage></RotatingImage>{' '}
       <section className="start-page-layout">
         <p className="presentation">
           Welcome to my site. I am a <span className="enhanced">Frontend</span> developer who builds web applications.
