@@ -3,11 +3,13 @@ import '../styles/style.scss';
 import data from '../data/portfolioData.json';
 
 import PortfolioItem from './PortfolioItem';
+import { RotatingImage } from './RotatingImage';
 
 export function Portfolio() {
   return (
     <>
       <h1>Portfolio</h1>
+      <RotatingImage></RotatingImage>
       <section className="portfolio">
         {data.map((item) => {
           return (
