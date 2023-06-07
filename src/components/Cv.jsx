@@ -1,5 +1,6 @@
 import '../styles/style.scss';
 import data from '../data/cvData.json';
+import { RotatingImage } from './RotatingImage';
 
 export function Cv() {
   const printExperiences = data.map((experience, i) => {
@@ -18,6 +19,7 @@ export function Cv() {
   return (
     <>
       <h1>CV</h1>
+      <RotatingImage></RotatingImage>
       <section className="experience-section">{printExperiences}</section>
     </>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/style.scss';
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
+import { RotatingImage } from './RotatingImage';
 
 export function Contact() {
   const socialMedia = [
@@ -49,6 +50,7 @@ export function Contact() {
   return (
     <>
       <h1>Contact</h1>
+      <RotatingImage></RotatingImage>
       <section className="contact-section">
         <div className="contact-info">
           <p>
