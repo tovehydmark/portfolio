@@ -22,6 +22,8 @@ export function StartPage() {
     'Mantine',
     'Chakra UI',
     'Semantic UI',
+    'Shopify',
+    'Liquid',
   ];
 
   const printCompetences = competences.map((competence, i) => {
