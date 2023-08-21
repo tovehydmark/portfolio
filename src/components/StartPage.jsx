@@ -44,9 +44,11 @@ export function StartPage() {
           <span className="enhanced">Node.js</span> for the backend. <br />
           <br />
           Having studied and worked remotely for the last two years, I have learnt to manage my time and work
-          efficiently all on my own merit.{' '}
-          <span className="enhanced">I am open for any remote or hybrid role in London </span>(my current location) or{' '}
-          <span className="enhanced">Stockholm </span>(my second home).
+          efficiently all on my own merit. I am sharing my time between <span className="enhanced">
+            London{' '}
+          </span>and <span className="enhanced">Stockholm </span> and I am looking for any{' '}
+          <span className="enhanced">hybrid/remote roles</span> and{' '}
+          <span className="enhanced">freelance projects.</span>
         </p>
         <div className="competences-box">{printCompetences}</div>
       </section>
