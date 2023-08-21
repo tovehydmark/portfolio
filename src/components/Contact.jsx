@@ -18,7 +18,7 @@ export function Contact() {
   ];
 
   const contact = [
-    { media: 'Email', data: 'tovehydmark@gmailcom', icon: <FaEnvelope style={{ width: '2rem', height: '2rem' }} /> },
+    { media: 'Email', data: 'tovehydmark@gmail.com', icon: <FaEnvelope style={{ width: '2rem', height: '2rem' }} /> },
     { media: 'Phone', data: '+447476320569', icon: <FaPhone style={{ width: '2rem', height: '2rem' }} /> },
   ];
 
@@ -33,14 +33,15 @@ export function Contact() {
   });
 
   const printContact = contact.map((item, i) => {
+    console.log(item);
     return (
       <div key={i}>
         {item.media === 'Email' ? (
-          <a href={'mailto:' + item.link} target="_blank" rel="noreferrer">
+          <a href={'mailto:' + item.data} target="_blank" rel="noreferrer">
             {item.icon}
           </a>
         ) : (
-          <a href={'tel:' + item.link} target="_blank" rel="noreferrer">
+          <a href={'tel:' + item.data} target="_blank" rel="noreferrer">
             {item.icon}
           </a>
         )}
@@ -54,9 +55,9 @@ export function Contact() {
       <section className="contact-section">
         <div className="contact-info">
           <p>
-            I'm currently living in <span className="enhanced">London</span> but I also have a home in{' '}
+            I'm sharing my time between <span className="enhanced">London</span> and{' '}
             <span className="enhanced">Stockholm.</span> <br />
-            Please send me an email or give me a call if you're interested in my work
+            Please send me an email or give me a call if you're interested in my work.
           </p>
         </div>
         <div className="social-media">

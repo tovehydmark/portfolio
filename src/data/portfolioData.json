@@ -1,5 +1,17 @@
 [
   {
+    "name": "Blåbär Nordic Living",
+    "img": "./images/blabar.png",
+    "link": "https://blabar.london",
+    "about": "I was tasked with enhancing the user experience and optimizing the layout of the website, which is currently hosted on the Shopify platform and utilizes the Liquid template language. In addition to these improvements, I was responsible for modernizing the theme, transitioning it from a vintage aesthetic to the sleek and advanced Shopify 2.0 theme."
+  },
+  {
+    "name": "NLP for Life",
+    "img": "./images/nlpforlife.png",
+    "link": "https://www.nlpforlife.se/",
+    "about": "I collaborated on a WordPress-hosted website, focusing on bug resolution and enhancing the overall user experience."
+  },
+  {
     "name": "pluggaTech",
     "img": "./images/plugga.tech.jpg",
     "link": "https://plugga.tech",

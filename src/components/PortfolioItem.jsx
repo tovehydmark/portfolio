@@ -13,7 +13,7 @@ export function PortfolioItem(props) {
       <div>
         <a href={props.link} target="_blank" rel="noreferrer">
           {' '}
-          Visit the published site <FaExternalLinkAlt></FaExternalLinkAlt>
+          Visit the site <FaExternalLinkAlt></FaExternalLinkAlt>
         </a>
       </div>
       {props.githubLink ? (
