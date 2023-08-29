@@ -24,6 +24,13 @@
     "about": "I've worked on the site Adventurehero.se during my internship as a frontend developer at HiveAndFive. Adventurehero is a booking system where businesses can advertise and manage events and activities that anyone can book. During the internship, I have developed new features from creating designs in Figma, having meetings with the customer, to implementing the feature in code. The project is written in React.js with TypeScript and Node.js."
   },
   {
+    "name": "portfolio-website",
+    "img": "./images/portfolio-website.png",
+    "link": "https://tovehydmark.dev",
+    "githubLink": "https://github.com/tovehydmark/portfolio",
+    "about": "On this site, I host some of my projects and outline my experiences and contact details. The project is built in React and deployed at Netlify."
+  },
+  {
     "name": "movie-webshop",
     "img": "./images/movie-webshop.jpg",
     "link": "https://tovehydmark.github.io/angular-webshop/webshop/",
