@@ -6,6 +6,12 @@
     "about": "I was tasked with enhancing the user experience and optimizing the layout of the website, which is currently hosted on the Shopify platform and utilizes the Liquid template language. In addition to these improvements, I was responsible for modernizing the theme, transitioning it from a vintage aesthetic to the sleek and advanced Shopify 2.0 theme."
   },
   {
+    "name": "Portfolio of Wilma Enström",
+    "img": "./images/wilmaenstrom.png",
+    "link": "https://github.com/tovehydmark/wilmaenstrom-portfolio",
+    "about": "This portfolio has been developed in Next.js for the artist Wilma Enström. The project includes a site that users will be able to visit as well as an admin page where an admin can manage the content of the site. The project is under development and is yet not deployed."
+  },
+  {
     "name": "NLP for Life",
     "img": "./images/nlpforlife.png",
     "link": "https://www.nlpforlife.se/",
