@@ -24,6 +24,12 @@
     "about": "I worked on the site Plugga.tech during my internship at HiveAndFive. Plugga.tech is an educational platform with video content created for web developers. I worked on developing new features, designed and implemented functionality and fixed bugs. The project is written in Next.js with TypeScript and tests were written in Cypress."
   },
   {
+    "name": "pluggaTech - Graduation project",
+    "img": "./images/graduation-project.png",
+    "link": "https://plugga.tech",
+    "about": "I created a feature on the site Plugga.tech as my graduation project. The feature is an internship application platform where businesses and students can create accounts. On the site, business can post internship vacancies that students can apply for. The feature is not yet launched but will be hosted on the platform plugga.tech."
+  },
+  {
     "name": "adventureHero",
     "img": "./images/adventurehero.jpg",
     "link": "https://adventurehero.se",
