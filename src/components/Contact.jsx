@@ -54,11 +54,7 @@ export function Contact() {
       <RotatingImage></RotatingImage>
       <section className="contact-section">
         <div className="contact-info">
-          <p>
-            I'm sharing my time between <span className="enhanced">London</span> and{' '}
-            <span className="enhanced">Stockholm.</span> <br />
-            Please send me an email or give me a call if you're interested in my work.
-          </p>
+          <p>Please send me an email or give me a call if you're interested in my work.</p>
         </div>
         <div className="social-media">
           {printSocialMedia}
