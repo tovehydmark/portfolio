@@ -40,17 +40,14 @@ export function StartPage() {
       <RotatingImage></RotatingImage>{' '}
       <section className="start-page-layout">
         <p className="presentation">
-          Welcome to my site. I am a <span className="enhanced">Frontend</span> developer who builds web applications.
-          My expertise lays in <span className="enhanced">React.js</span> and{' '}
-          <span className="enhanced">TypeScript</span>. I also write fullstack applications using{' '}
-          <span className="enhanced">Node.js</span> for the backend. <br />
-          <br />
-          Having studied and worked remotely for the last two years, I have learnt to manage my time and work
-          efficiently all on my own merit. I am sharing my time between <span className="enhanced">
-            London{' '}
-          </span>and <span className="enhanced">Stockholm </span> and I am looking for any{' '}
-          <span className="enhanced">hybrid/remote roles</span> and{' '}
-          <span className="enhanced">freelance projects.</span>
+          I am a <span className="enhanced">Frontend</span> developer who builds web applications. My expertise lays in{' '}
+          <span className="enhanced">React.js</span> and <span className="enhanced">TypeScript</span>. I also write
+          fullstack applications using <span className="enhanced">Node.js</span> for the backend. <br />
+          <br />I am eager to learn and will happliy take on any project - just let me know! <br />
+          <br /> Having two years of experience in web development, I have learnt to manage my time and work
+          efficiently. I am <span className="enhanced">open to work </span>and I am interested in{' '}
+          <span className="enhanced">hybrid/remote </span>roles and <span className="enhanced">freelance projects</span>{' '}
+          in <span className="enhanced">London </span>or <span className="enhanced">Stockholm. </span>
         </p>
         <div className="competences-box">{printCompetences}</div>
       </section>
