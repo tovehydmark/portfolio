@@ -1,19 +1,19 @@
 [
   {
     "name": "Blåbär Nordic Living",
-    "img": "./images/blabar.png",
+    "img": "./images/blabar.jpg",
     "link": "https://blabar.london",
     "about": "I was tasked with enhancing the user experience and optimizing the layout of the website, which is currently hosted on the Shopify platform and utilizes the Liquid template language. In addition to these improvements, I was responsible for modernizing the theme, transitioning it from a vintage aesthetic to the sleek and advanced Shopify 2.0 theme."
   },
   {
     "name": "Portfolio of Wilma Enström",
-    "img": "./images/wilmaenstrom.png",
+    "img": "./images/wilmaenstrom.jpg",
     "link": "https://github.com/tovehydmark/wilmaenstrom-portfolio",
     "about": "This portfolio has been developed in Next.js for the artist Wilma Enström. The project includes a site that users will be able to visit as well as an admin page where an admin can manage the content of the site. The project is under development and is yet not deployed."
   },
   {
     "name": "NLP for Life",
-    "img": "./images/nlpforlife.png",
+    "img": "./images/nlpforlife.jpg",
     "link": "https://www.nlpforlife.se/",
     "about": "I collaborated on a WordPress-hosted website, focusing on bug resolution and enhancing the overall user experience."
   },
@@ -25,7 +25,7 @@
   },
   {
     "name": "pluggaTech - Graduation project",
-    "img": "./images/graduation-project.png",
+    "img": "./images/graduation-project.jpg",
     "link": "https://plugga.tech",
     "about": "I created a feature on the site Plugga.tech as my graduation project. The feature is an internship application platform where businesses and students can create accounts. On the site, business can post internship vacancies that students can apply for. The feature is not yet launched but will be hosted on the platform plugga.tech."
   },
