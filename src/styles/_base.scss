@@ -27,8 +27,11 @@ body {
   h1 {
     font-size: 4rem;
     text-align: center;
-    text-align: center;
     margin-top: 100px;
+  }
+  h2 {
+    margin-top: 10rem;
+    text-align: center;
   }
 
   //// NAVIGATION ////
@@ -93,7 +96,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 0 auto;
+      margin: 0 auto -5rem;
       gap: 10%;
       width: 90%;
       max-width: 850px;
@@ -139,6 +142,51 @@ body {
     color: $lightYellow;
   }
 
+  .portfolio {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .portfolio-image {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    width: 350px;
+    border: 1px solid rgb(62, 57, 57);
+    border-radius: 5px;
+  }
+  .portfolio-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    align-items: center;
+    margin-bottom: 3rem;
+    max-width: 500px;
+
+    button {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      background-color: $darkGray;
+      border: 1px solid $darkYellow;
+      border-radius: 0.5rem;
+      background-color: $lightYellow;
+      button:hover {
+        cursor: pointer;
+      }
+    }
+    p {
+      margin: 0.3rem;
+    }
+    .about-the-project {
+      margin-bottom: 1rem;
+      max-width: 350px;
+    }
+  }
+
   ///Portfolio
 
   .portfolio {
@@ -151,8 +199,9 @@ body {
   }
   .portfolio-image {
     height: 160px;
-    width: 350px;
+    width: 100%;
     object-fit: cover;
+    width: 350px;
     border: 1px solid rgb(62, 57, 57);
     border-radius: 5px;
   }
@@ -180,6 +229,7 @@ body {
     }
     .about-the-project {
       margin-bottom: 1rem;
+      max-width: 350px;
     }
   }
 
