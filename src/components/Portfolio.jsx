@@ -8,7 +8,7 @@ import { RotatingImage } from './RotatingImage';
 export function Portfolio() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <h2>Projects</h2>
       <RotatingImage></RotatingImage>
       <section className="portfolio">
         {data.map((item) => {
