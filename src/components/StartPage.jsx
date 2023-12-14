@@ -49,7 +49,7 @@ export function StartPage() {
           I am a <span className="enhanced">Frontend</span> developer who builds web applications. My expertise lays in{' '}
           <span className="enhanced">React.js</span> and <span className="enhanced">TypeScript</span>. I also write
           fullstack applications using <span className="enhanced">Node.js</span> for the backend. <br />
-          <br /> Having two years of experience in web development, I have learnt to manage my time and work
+          <br /> Having over two years of experience in web development, I have learnt to manage my time and work
           efficiently. I am <span className="enhanced">open to work </span>and I am interested in{' '}
           <span className="enhanced">hybrid/remote </span>roles and <span className="enhanced">freelance projects</span>{' '}
           in <span className="enhanced">London </span>or <span className="enhanced">Stockholm. </span>

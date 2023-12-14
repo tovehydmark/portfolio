@@ -12,10 +12,22 @@
     "about": "This portfolio has been developed in Next.js for the artist Wilma Enström. The project includes a site that users will be able to visit as well as an admin page where an admin can manage the content of the site. The project is under development and is yet not deployed."
   },
   {
-    "name": "NLP for Life",
-    "img": "./images/nlpforlife.jpg",
-    "link": "https://www.nlpforlife.se/",
-    "about": "I collaborated on a WordPress-hosted website, focusing on bug resolution and enhancing the overall user experience."
+    "name": "Paragon Collective",
+    "img": "./images/paragon-collective.png",
+    "link": "hhttps://www.paragoncaps.com/password",
+    "about": "Designing and building an ecommerce store in Shopify. I am custom building the theme based on a design in Figma. The shop is under construction."
+  },
+  {
+    "name": "Fridas Fina AB",
+    "img": "./images/Fridasfina.png",
+    "link": "https://fridasfina.se/",
+    "about": "Designed and built a simple one-page site as a substitute for a closed down ecommerce shop. Deployed the site on Netlify and connected the old domain to the new site."
+  },
+  {
+    "name": "Noble Crafts Ltd.",
+    "img": "./images/noblecraftsltd.jpg",
+    "link": "https://www.noblecrafts.life/",
+    "about": "Built the consultancy website in Wix and created the design based on the clients' wishes and feedback. I also set up the domain and deployed the site. I am also helping the client with email marketing by setting up, building and designing email flows and campaigns in Klaviyo."
   },
   {
     "name": "pluggaTech",
