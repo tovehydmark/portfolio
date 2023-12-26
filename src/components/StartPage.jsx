@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import 'animate.css';
 import '../styles/style.scss';
 import { RotatingImage } from './RotatingImage';
@@ -31,6 +31,9 @@ export function StartPage() {
     'Shopify',
     'Liquid',
   ];
+  const [index, setIndex] = useState(0);
+  const words = ['Frontend Developer', 'Fullstack Developer', 'React Developer', 'Shopify Developer'];
+  const delay = 1000;
 
   const printCompetences = competences.map((competence, i) => {
     return (
@@ -40,19 +43,35 @@ export function StartPage() {
     );
   });
 
+  useEffect(() => {
+    if (index >= words.length) return;
+
+    // Set a timeout to update the index after the specified delay
+    const timeoutId = setTimeout(() => {
+      setIndex((currentIndex) => (currentIndex + 1) % words.length);
+    }, delay);
+
+    // Clear the timeout if the component unmounts
+    return () => clearTimeout(timeoutId);
+  }, [index, words.length, delay]);
+
   return (
     <>
-      <h1>I am Tove</h1>
-      <RotatingImage></RotatingImage>{' '}
+      <div className="i-am-tove">
+        <h1>Hi, I'm Tove.</h1>
+        <p>
+          I am a freelance <span className="enhanced-purple">{words[index]}</span>
+        </p>
+      </div>
+
+      <RotatingImage></RotatingImage>
       <section className="start-page-layout">
         <p className="presentation">
-          I am a <span className="enhanced">Frontend</span> developer who builds web applications. My expertise lays in{' '}
-          <span className="enhanced">React.js</span> and <span className="enhanced">TypeScript</span>. I also write
-          fullstack applications using <span className="enhanced">Node.js</span> for the backend. <br />
-          <br /> Having over two years of experience in web development, I have learnt to manage my time and work
-          efficiently. I am <span className="enhanced">open to work </span>and I am interested in{' '}
-          <span className="enhanced">hybrid/remote </span>roles and <span className="enhanced">freelance projects</span>{' '}
-          in <span className="enhanced">London </span>or <span className="enhanced">Stockholm. </span>
+          My expertise lays in <span className="enhanced">React.js</span>, <span className="enhanced">TypeScript</span>,
+          <span className="enhanced"> Node.js</span> and <span className="enhanced"> Shopify</span>.<br />
+          <br /> With two+ years of experience in web development, I am <span className="enhanced">open to work </span>
+          and I am interested in <span className="enhanced">hybrid/remote </span>roles and{' '}
+          <span className="enhanced">freelance projects</span> in London or Stockholm.
         </p>
         <div className="competences-box">{printCompetences}</div>
       </section>
