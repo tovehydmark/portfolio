@@ -54,7 +54,7 @@ export function Contact() {
       <RotatingImage></RotatingImage>
       <section className="contact-section">
         <div className="contact-info">
-          <p>Please send me an email or give me a call if you're interested in my work.</p>
+          <p>Send me an email or give me a call if you want to cooperate!</p>
         </div>
         <div className="social-media">
           {printSocialMedia}
