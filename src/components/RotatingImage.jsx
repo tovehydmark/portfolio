@@ -11,6 +11,7 @@ export function RotatingImage() {
 
       // Apply the rotation to the image element
       const image = document.getElementById('rotating-image');
+
       image.style.transform = `rotate(${rotation}deg)`;
     };
 

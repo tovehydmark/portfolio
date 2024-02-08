@@ -64,7 +64,6 @@ export function StartPage() {
         </p>
       </div>
 
-      <RotatingImage></RotatingImage>
       <section className="start-page-layout">
         <p className="presentation">
           I specialize in <span className="enhanced">React.js</span>, <span className="enhanced">TypeScript</span>,
