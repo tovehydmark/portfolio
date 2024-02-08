@@ -67,10 +67,11 @@ export function StartPage() {
       <RotatingImage></RotatingImage>
       <section className="start-page-layout">
         <p className="presentation">
-          My expertise lays in <span className="enhanced">React.js</span>, <span className="enhanced">TypeScript</span>,
-          <span className="enhanced"> Node.js</span> and <span className="enhanced"> Shopify</span>.<br />
-          <br /> With two+ years of experience in web development, I am <span className="enhanced">open to work </span>
-          and I am interested in <span className="enhanced">hybrid/remote </span>roles and{' '}
+          I specialize in <span className="enhanced">React.js</span>, <span className="enhanced">TypeScript</span>,
+          <span className="enhanced"> Node.js</span>, and <span className="enhanced"> Shopify</span> development.
+          <br />
+          <br /> With 2,5+ years of experience in web development, I am <span className="enhanced">open to work </span>
+          and I am excited about <span className="enhanced">hybrid/remote </span>roles and{' '}
           <span className="enhanced">freelance projects</span> in London or Stockholm.
         </p>
         <div className="competences-box">{printCompetences}</div>
