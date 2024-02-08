@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'animate.css';
 import '../styles/style.scss';
-import { RotatingImage } from './RotatingImage';
 import Portfolio from './Portfolio';
 export function StartPage() {
   const competences = [
